@@ -17,7 +17,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: /learn.glitchitsystem.com/public_html/superhero
+          server-dir: /learn.glitchitsystem.com/public_html/superhero/
           protocol: ftp
           log-level: standard
           dangerous-clean-slate: true
